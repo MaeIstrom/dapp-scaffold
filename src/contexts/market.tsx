@@ -288,7 +288,7 @@ const getMidPrice = (marketAddress?: string, mintAddress?: string) => {
 
   const marketInfo = cache.get(marketAddress);
   if (!marketInfo) {
-    return 0.0;
+    return 150.0;
   }
 
   const decodedMarket = marketInfo.info;
